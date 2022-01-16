@@ -1,0 +1,29 @@
+baseURL: "http://example.org/"
+languageCode: en-au
+title: Getting Started
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+  - name: Disabled Item
+    weight: 30
+    params:
+      disabled: true
+  - name: Github
+    url: https://www.github.com/
+  - name: Drop Down
+    identifier: drop
+    weight: 20
+  - parent: drop
+    weight: 20
+    params:
+      divider: true
+  - name: Disabled drop down Item
+    parent: drop
+    weight: 30
+    params:
+      disabled: true
