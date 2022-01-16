@@ -1,3 +1,3 @@
-# Tutorial - Getting Started with hugo and bootstrap
+# This tutorial has not yet been published
 
-Watch the video at <https://youtu.be/T671OzJisFs>
+Check out my other videos at [my youtube channel](https://www.youtube.com/channel/UCtlnMUJr68ytsr11_dv_elg).
